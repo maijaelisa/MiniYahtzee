@@ -137,6 +137,7 @@ export default StyleSheet.create({
     contentContainer: {
         padding: 16,
         alignItems: 'center',
+        width: '100%',
     },
     title: {
         fontSize: 24,
@@ -167,8 +168,10 @@ export default StyleSheet.create({
         lineHeight: 24,
         color: COLORS.textPrimary,
     },
+
+    // ScoreboardScreen tyylit
     scoreItem: {
-        width: '90%',
+        width: '98%',                // Levennetään täyttämään melkein koko näyttö
         backgroundColor: COLORS.categoryBackground,
         padding: 15,
         borderRadius: 8,
@@ -212,6 +215,8 @@ export default StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
     },
+
+
     logo: {
         width: 100,
         height: 100,

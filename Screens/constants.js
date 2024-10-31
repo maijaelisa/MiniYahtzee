@@ -1,4 +1,4 @@
-// constants.js
+
 
 export const NBR_OF_DICES = 5;
 export const NBR_OF_THROWS = 3;
